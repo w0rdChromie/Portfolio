@@ -41,7 +41,7 @@ function checkCode(event){
 function cheatCodeActivated(){
 		//alert("Yuuuuuuhhhhh let's goooooo");
 		let options = 'statusbar=no, height=680, width=680';
-		window.open('mindscape.html', 'virtuascape', options);
+		window.open('https://linktr.ee/clhumphrey', 'Find Me at These Places', options);
 	}
 
 function resetKeyState(){

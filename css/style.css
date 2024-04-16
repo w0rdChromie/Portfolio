@@ -121,7 +121,7 @@ h3 { font-size: var(--fs-h3); }
 	padding: .25em 1em;
 	font-family: var(--ff-secondary);
 	color: var(--clr-light);
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 }
 
 
@@ -497,7 +497,7 @@ a {
 }
 
 .portfolio-item-individual {
-    padding: 0 2em 2em;
+    padding: 0em 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -506,6 +506,8 @@ a {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 1em; /* Adjust bottom margin as needed */
 }
 
 .grid-container {
